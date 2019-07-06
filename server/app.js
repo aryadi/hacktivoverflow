@@ -8,7 +8,7 @@ const cors = require('cors');
 const routes = require('./routes');
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb+srv://madearyadi:madearyadi@mini-wp-k9rvg.gcp.mongodb.net/madeOverflow-1?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb://localhost:27017/hacktiv-overflow`, {
     useNewUrlParser: true
   })
   .then(() => {
